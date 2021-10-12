@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+main {
+  clear: both;
+}
+footer {
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  padding: 8px 0;
+  background-color: #c5c5c5;
+  color: #fff;
+  position: fixed;
+  width: 100vw;
+  margin: auto;
+}
+
+#tasks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  text-align: center;
+}
+.updateForm {
+  display: none;
+}
+
+.modal-header,
+.modal-body {
+  padding: 2rem;
+}
+
+.expirations {
+  font-size: 18px;
+  color: #333;
+  width: 95vw;
+  clear: both;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+.form-div label {
+  text-decoration: underline;
+}
+
+.table {
+  table-layout: fixed;
+}
+.table th,
+.table td {
+  text-align: center;
+}
+
+.table .notesData {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+}
